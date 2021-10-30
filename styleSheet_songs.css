@@ -1,0 +1,74 @@
+
+.header{  
+       color:rgb(248, 250, 250);
+       background-image: url("https://tse3.mm.bing.net/th?id=OIP.x78TQ5bHNWuCe1CvPT6aBAHaEo&pid=Api&P=0&w=282&h=177");
+       text-shadow:2px 1px 3px rgb(196, 195, 195);
+       max-width:100%;
+       font-size: 30px;
+       font-family: 'Merriweather', serif;
+       height:100%;
+       padding : 0.3%;
+       text-align:center; 
+       margin: 0;
+}
+body{
+   background: linear-gradient(#1d160d,#493322); 
+   font-family: 'Rubik', sans-serif;
+  }
+  .container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+.flex>img{
+  width: 360px;
+  height: 300px;
+  margin: 10px;
+}
+
+.flex{
+ display: flex;
+    flex-direction: column; 
+}
+
+#searchContent{
+  border-radius: 3px;
+  border: none;
+  padding:2px;
+  outline: none;
+  font-size: 6px;
+  width:85%;
+  align-items: center;
+  margin-left: 6.5%;
+  font-size: 20px;
+}
+
+audio{
+  width: 390px;
+  outline: none;
+  margin-left: 10px;
+}
+.flex>p{
+  text-align: center;
+  align-content: center;
+  font-size: 28px;
+  color:rgb(248, 250, 250);
+  font-weight: bolder;
+  margin: 0px;
+  margin-top:10px;
+}
+@media screen and (max-width: 720px) {
+ .header{
+    font-size: 20px;
+ }
+ .flex>img{
+    width: 95%;
+    height: 250px;
+    margin: 10px;
+  }
+  audio{
+    width: 95%;
+    outline: none;
+    margin-left:11px;
+  }
+}
